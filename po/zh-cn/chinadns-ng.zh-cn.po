@@ -94,6 +94,9 @@ msgstr "国内路由表优先"
 msgid "match chnlist first, default is gfwfirst"
 msgstr "优先匹配国内路由表，默认是优先匹配国外路由表"
 
+msgid "No Ipv6 Query"
+msgstr "禁用 IPv6 地址查询"
+
 msgid "reuse_port"
 msgstr "多进程端口复用"
 

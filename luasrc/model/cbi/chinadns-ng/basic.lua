@@ -64,6 +64,9 @@ o = s:option(Flag, "chnlist_first",
 	translate("match chnlist first, default is gfwfirst"))
 o.rmempty     = false
 
+o = s:option(Flag, "no_ipv6", translate("No Ipv6 Query"))
+o.rmempty     = false
+
 o = s:option(Flag, "reuse_port",
 	translate("reuse_port"),
 	translate("reuse_port，for Multi-process load balancing"))
